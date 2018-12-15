@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     	<meta charset="utf-8">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="css/style-portfolio.css">
+        <link rel="shortcut icon" href="img/favicon.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--<link rel="stylesheet" type="text/css" href="GridLoadingEffects/css/component.css" />
+        <script src="GridLoadingEffects/js/modernizr.custom.js"></script>-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+   </head>
+   <body>
+    <header id="header" class="header">
+      <div class="header__menu">
+        <a href="index.html" class="header__logo">Andrey Guchok</a>
+        <nav class="header__nav">
+          <a class="nav__item" href="index.html">HOME</a>
+          <a class="nav__item active" href="portfolio.html">PORTFOLIO</a>
+          <a class="nav__item" href="team.html">TEAM</a>
+          <a class="nav__item" href="contact.html">CONTACT</a>
+        </nav>
+      </div>
+      <section id="portfolio" class="portfolio">
+        <div class="wrapper">
+          <div class="portfolio-title">THE PORTFOLIO</div>
+          <div class="portfolio-title2">I, Andrei Guchok - professional photographer with two higher education, emotional, persistent, understand the trends and adore my work. I work under my own brand. With me - my team: manager, retoucher, assistant and designer. We always work with pleasure, for 2 years we have been creating photos and photo books. We do not just static photographs, but help the emotions of love to remain in the frame, carefully preserving the most exciting moments of your family.</div>
+
+        </div>
+        <div ><a href="#photos" class="header__scroll">&#8744;</a></div>
+      </section>
+    </header>
+    <main>
+      <section class="photos" id="photos">
+        <div class="button-group filters-button-group">
+          <button class="button is-checked" data-filter="*">All works</button>
+          <button class="button" data-filter=".portrait">Portraits</button>
+          <button class="button" data-filter=".fashion">Fashion</button>
+          <button class="button" data-filter=".build">Building</button>
+          <button class="button" data-filter=".minimal">Minimalism</button>
+        </div>
+        <div class="grid">
+          <img class="element-item portrait" data-category="portrait" src="img/port/1.JPG" alt="grid-item">
+          <img class="element-item minimal" data-category="minimal" src="img/port/2.JPG" alt="grid-item">
+          <img class="element-item portrait" data-category="portrait" src="img/port/3.JPG" alt="grid-item">
+          <img class="element-item portrait" data-category="portrait" src="img/port/4.JPG" alt="grid-item">
+          <img class="element-item build" data-category="build" src="img/port/15.jpg" alt="grid-item">
+
+          <img class="element-item fashion" data-category="fashion" src="img/port/5.JPG" alt="grid-item">
+          <img class="element-item portrait" data-category="portrait" src="img/port/6.JPG" alt="grid-item">
+          <img class="element-item fashion" data-category="fashion" src="img/port/7.jpg" alt="grid-item">
+          <img class="element-item build" data-category="build" src="img/port/13.jpg" alt="grid-item">
+          <img class="element-item portrait" data-category="portrait" src="img/port/8.jpg" alt="grid-item">
+          <img class="element-item fashion" data-category="fashion" src="img/port/9.jpg" alt="grid-item">
+          <img class="element-item fashion" data-category="fashion" src="img/port/10.jpg" alt="grid-item">
+          <img class="element-item portrait" data-category="portrait" src="img/port/11.jpg" alt="grid-item">
+          <img class="element-item minimal" data-category="minimal" src="img/port/12.jpg" alt="grid-item">
+          <img class="element-item build" data-category="build" src="img/port/14.jpg" alt="grid-item">
+          <img class="element-item build" data-category="build" src="img/port/15.jpg" alt="grid-item">
+        </div>
+      </section>
+      <section class="contact" id="contact">
+        <div class="wrapper">
+        <p class="contact-title">Already Loved Us? Let's talk!</p>
+        <a class="contact-but" href="contact.html">Contact Us</a>
+      </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="wrapper">
+        <a href="#header" class="header__logo--foot">Andrey Guchok</a>
+        <p class="footer__aim">Copyright 2018. All rights Reserved</p>
+        <nav class="footer__nav">
+          <a class="footer__item footer__item--1" href="https://www.facebook.com/Andr.Guchok"><i class="fab fa-facebook-f"></i></a>
+          <a class="footer__item footer__item--3" href="https://www.linkedin.com/in/tania-petrosaniak-684178165/"><i class="fab fa-linkedin-in"></i></a>
+          <a class="footer__item footer__item--4" href="https://www.instagram.com/guchok.andrey/"><i class="fab fa-instagram"></i></a>
+
+        </nav>
+
+      </div>
+    </footer>
+
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+     <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+<script src="js/main.js"></script>
+   </body>
+   </html>
